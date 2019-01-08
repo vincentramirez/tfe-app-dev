@@ -8,6 +8,6 @@ module "ec2_instance" {
   associate_public_ip_address = "false"
   instance_type = "t2.micro"
   name = "vinnie-mod-test"
-  subnet_id = []
-  vpc_security_group_ids = []
+  subnet_id = "subnet-036103be4e6fb94af"
+  vpc_security_group_ids = ["sg-0d1b21350b7259316"]
 }
