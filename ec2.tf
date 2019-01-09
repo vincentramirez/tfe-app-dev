@@ -6,7 +6,7 @@ module "ec2_instance" {
 
   ami = "ami-009d6802948d06e52"
   associate_public_ip_address = "false"
-  instance_type = "t2.large"
+  instance_type = "t2.micro"
   name = "vinnie-mod-test"
   subnet_id = "subnet-036103be4e6fb94af"
   vpc_security_group_ids = ["sg-0d1b21350b7259316"]
