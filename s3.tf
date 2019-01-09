@@ -14,4 +14,7 @@ resource "aws_s3_bucket" "examples3" {
       }
     }
   }
+  tags {
+    bucket = "webserver"
+  }
 }
